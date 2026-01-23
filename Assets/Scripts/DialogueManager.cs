@@ -70,6 +70,8 @@ public class DialogueManager : MonoBehaviour
 public void StartDialogue()
 {
     Debug.Log("StartDialogue CALLED");
+    Debug.Log("E pressed");
+
 
     audioSource.clip = npcFirstLine;
     audioSource.Play();
